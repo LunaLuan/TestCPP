@@ -1,0 +1,15 @@
+package thread1;
+
+public class ThreadDemo {
+
+	class Thread1 extends Thread {
+		@Override
+		public void run() {
+			System.out.println("Thread: " + Thread.currentThread().getId());
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

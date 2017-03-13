@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="builder.RobotBuilder"/>
+<fullyQualifiedTypeName name="builder.Robot"/>
+<fullyQualifiedTypeName name="builder.CookieRobot.CookieRobotBuilder"/>
+<fullyQualifiedTypeName name="builder.CookieRobot"/>
+<fullyQualifiedTypeName name="Derived2"/>
+<fullyQualifiedTypeName name="Base"/>
+<fullyQualifiedTypeName name="Derived"/>
+<fullyQualifiedTypeName name="thread1.ThreadDemo"/>
+<fullyQualifiedTypeName name="thread1.ThreadDemo.Thread1"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="synctest.Sender"/>
+<fullyQualifiedTypeName name="synctest.ThreadSend"/>
+</qualifiedTypeNameHistroy>

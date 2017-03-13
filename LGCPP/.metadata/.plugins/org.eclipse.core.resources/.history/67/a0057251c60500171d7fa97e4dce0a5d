@@ -1,0 +1,29 @@
+#include "Triangle.h"
+
+Triangle::Triangle(int a, int b, int c) {
+
+}
+
+int Triangle::getArea() {
+	/* TODO write this function to get
+	* area of triangle
+	*/
+	return 0;
+}
+
+int Triangle::getPerimeter() {
+	/* TODO write this function to get
+	 * perimeter of triangle
+	 */
+	return 0;
+}
+
+
+
+bool Triangle::isTriangle(int a, int b, int c) {
+	
+}
+
+Triangle::~Triangle() {
+
+}

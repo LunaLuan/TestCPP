@@ -1,0 +1,15 @@
+#ifndef SHAPEFACTORY_H
+#define SHAPEFACTORY_H
+
+#include<iostream>
+using namespace std;
+
+class ShapeFactory
+{
+	public:
+		Shape* createShape(int type);
+		virtual ~Shape();
+	protected:
+};
+
+#endif

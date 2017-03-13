@@ -1,0 +1,19 @@
+#include "Triangle.h"
+
+#ifndef RIGHTTRIANGLE_H
+#define RIGHTTRIANGLE_H
+
+class RightTriangle:public Triangle
+{
+	public:
+		RightTriangle(int a, int b);
+		virtual int getArea();
+		virtual int getPerimeter();
+		static bool isRightTriangle();
+		~Triangle();
+	protected:
+		int m_a, m_b;
+		
+};
+
+#endif

@@ -1,0 +1,26 @@
+#ifndef SHAPEFACTORY_H
+#define SHAPEFACTORY_H
+
+#include "Shape.h"
+
+#include "Triangle.h"
+#include "RightTriangle.h"
+
+#include "Rectangle.h"
+#include "Square.h"
+
+#include<iostream>
+using namespace std;
+
+class ShapeFactory
+{
+	public:
+		ShapeFactory();
+		Shape* createShape(int type);
+		virtual ~ShapeFactory();
+
+	protected:
+		
+};
+
+#endif

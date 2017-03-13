@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+#include "ShapeManager.h"
+#include "ShapeFactory.h"
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+void printMenu() {
+	cout<<"\t***Moi ban nhap hinh mong muon:***"<<endl;
+	cout<<"1. Triangle"<<endl;
+	cout<<"2. Right Triangle"<<endl;
+	cout<<"3. Rectangle"<<endl;
+	cout<<"4. Square"<<endl;
+	cout<<"Moi nhap: ";
+}
+
+int main() {
+	ShapeManager sm;
+	ShapeFactory factory;
+	
+	int type;
+	printMenu();
+	cin>>type;
+	while(type != 0) {
+		sm.add(factory.createShape(type));
+		cin>>type;
+	}
+	
+	
+	return 0;
+}

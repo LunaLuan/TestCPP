@@ -1,0 +1,29 @@
+#include "ShapeFactory.h"
+
+#include "Shape.h"
+
+#include "Triangle.h"
+#include "RightTriangle.h"
+
+#include "Rectangle.h"
+#include "Square.h"
+
+
+
+Shape* ShapeFactory::createShape(int type) {
+	if(type == 1) {
+		return new Triangle(0, 0 , 0);
+	}
+	else if(type == 2) {
+		return new RightTriangle(0, 0);
+	}
+	else if(type == 3) {
+		return new Rectangle(0, 0);
+	} 
+	else if(type == 4) {
+		return new Square(0);
+	}
+}
+
+
+

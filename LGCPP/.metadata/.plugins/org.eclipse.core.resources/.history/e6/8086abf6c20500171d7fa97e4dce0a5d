@@ -1,0 +1,23 @@
+#include "Shape.h"
+
+Shape::Shape() {
+	
+}
+
+void Shape::setName(string n) {
+	name = n;
+}
+
+string Shape::getName() {
+	return name;
+}
+
+ostream& operator<<(ostream& os, Shape &s) {
+	cout<<s.getArea()<<"; "<<s.getPerimeter();
+	return os;
+}
+
+
+
+
+

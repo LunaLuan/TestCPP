@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Base b = new Base();
+		Derived d = new Derived();
+		
+		Base c = (Base) d;
+		
+		Base d2 = new Derived2();
+		d = (Derived) d2;
+	}
+}

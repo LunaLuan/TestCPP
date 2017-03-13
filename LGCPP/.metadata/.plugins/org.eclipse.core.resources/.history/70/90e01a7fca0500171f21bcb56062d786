@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="Cp1252"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="Assign3">
+  <eAnnotations xmi:id="_KW5eAcYmEd-dJYwkGUnvHA" source="http://www.topcased.org/reverse">
+    <details xmi:id="_RmM9UMYmEd-dJYwkGUnvHA" key="PROJECT_CHARSET" value="Cp1252"/>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="Use Case View">
+    <packagedElement xmi:type="uml:Package" xmi:id="_Oug3IIBpEduoHLDxP0HEYA" name="Actors"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_R1l80IBpEduoHLDxP0HEYA" name="Analysis Classes"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_47DVYIBpEduoHLDxP0HEYA" name="Domain Classes"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="__ftVMIBpEduoHLDxP0HEYA" name="External Entities">
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_xkzEEIBqEduoHLDxP0HEYA" name="External Entities Dynamic Data Flow General view"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_eruFQIBqEduoHLDxP0HEYA" name="Data Flow General View"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_gSuC0IBrEduoHLDxP0HEYA" name="MySystem">
+      <nestedClassifier xmi:type="uml:StateMachine" xmi:id="_uFnK8IBrEduoHLDxP0HEYA" name="MySystem Behavioural"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GPdf0IBsEduoHLDxP0HEYA" name="AUseCase">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_I859gIBsEduoHLDxP0HEYA" name="ASequenceDiagram"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_4UHtsIBoEduoHLDxP0HEYA" name="Logical View">
+    <packagedElement xmi:type="uml:Package" xmi:id="_LLvlME0uEd-ONPwW9OyryA" name="Source Artefacts">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ann7UAWpEeexSeX3i_n0aA" name="Rectangle" visibility="public">
+        <eAnnotations xmi:id="_AnoiYAWpEeexSeX3i_n0aA" source="http://www.eclipse.org/umlgen/annotation/c">
+          <details xmi:id="_AnoiYQWpEeexSeX3i_n0aA" key="C_FILENAME" value="src/Rectangle.cpp"/>
+          <details xmi:id="_A2nZkAWpEeexSeX3i_n0aA" key="H_FILENAME" value="src/Rectangle.h"/>
+          <details xmi:id="_A2onsAWpEeexSeX3i_n0aA" key="IFNDEF" value="RECTANGLE_H"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_A2pOwQWpEeexSeX3i_n0aA" name="RECTANGLE_H" visibility="public" type="_A2pOwAWpEeexSeX3i_n0aA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_A2pOwgWpEeexSeX3i_n0aA" name="readOnlyValue" value=""/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_AnqXkQWpEeexSeX3i_n0aA" name="Rectangle" visibility="private" client="_Ann7UAWpEeexSeX3i_n0aA" supplier="_Ann7UAWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_A2onsgWpEeexSeX3i_n0aA" name="Shape" visibility="public" client="_Ann7UAWpEeexSeX3i_n0aA" supplier="_Bd5cAAWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_BCaZ4AWpEeexSeX3i_n0aA" name="RightTriangle" visibility="public">
+        <eAnnotations xmi:id="_BCaZ4QWpEeexSeX3i_n0aA" source="http://www.eclipse.org/umlgen/annotation/c">
+          <details xmi:id="_BCbA8AWpEeexSeX3i_n0aA" key="C_FILENAME" value="src/RightTriangle.cpp"/>
+          <details xmi:id="_BQX9YAWpEeexSeX3i_n0aA" key="H_FILENAME" value="src/RightTriangle.h"/>
+          <details xmi:id="_BQZLgAWpEeexSeX3i_n0aA" key="IFNDEF" value="RIGHTTRIANGLE_H"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_BQaZoAWpEeexSeX3i_n0aA" name="RIGHTTRIANGLE_H" visibility="public" type="_A2pOwAWpEeexSeX3i_n0aA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_BQaZoQWpEeexSeX3i_n0aA" name="readOnlyValue" value=""/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_BCddMQWpEeexSeX3i_n0aA" name="RightTriangle" visibility="private" client="_BCaZ4AWpEeexSeX3i_n0aA" supplier="_BCaZ4AWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_BQZykQWpEeexSeX3i_n0aA" name="Triangle" visibility="public" client="_BCaZ4AWpEeexSeX3i_n0aA" supplier="_DDp44AWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Bd5cAAWpEeexSeX3i_n0aA" name="Shape" visibility="public">
+        <eAnnotations xmi:id="_Bd5cAQWpEeexSeX3i_n0aA" source="http://www.eclipse.org/umlgen/annotation/c">
+          <details xmi:id="_Bd5cAgWpEeexSeX3i_n0aA" key="C_FILENAME" value="src/Shape.cpp"/>
+          <details xmi:id="_BrX3UAWpEeexSeX3i_n0aA" key="H_FILENAME" value="src/Shape.h"/>
+          <details xmi:id="_BrZFcAWpEeexSeX3i_n0aA" key="IFNDEF" value="SHAPE_H"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_BraTkAWpEeexSeX3i_n0aA" name="SHAPE_H" visibility="public" type="_A2pOwAWpEeexSeX3i_n0aA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_BraTkQWpEeexSeX3i_n0aA" name="readOnlyValue" value=""/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Bd8fUAWpEeexSeX3i_n0aA" name="operator &lt;&lt;" visibility="private" specification="_Bd9tcAWpEeexSeX3i_n0aA">
+          <ownedParameter xmi:id="_Bd8fUgWpEeexSeX3i_n0aA" name="os" type="_Bd8fUQWpEeexSeX3i_n0aA"/>
+          <ownedParameter xmi:id="_Bd9GYQWpEeexSeX3i_n0aA" name="s" type="_Bd9GYAWpEeexSeX3i_n0aA"/>
+          <ownedParameter xmi:id="_Bd9GYgWpEeexSeX3i_n0aA" name="" type="_Bd8fUQWpEeexSeX3i_n0aA" direction="return"/>
+          <language>C</language>
+          <body>{&#xD;
+	cout&lt;&lt;s.getArea()&lt;&lt;&quot;; &quot;&lt;&lt;s.getPerimeter();&#xD;
+	return os;&#xD;
+}</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Bd9tcAWpEeexSeX3i_n0aA" name="operator &lt;&lt;" visibility="private" method="_Bd8fUAWpEeexSeX3i_n0aA">
+          <ownedParameter xmi:id="_Bd9tcQWpEeexSeX3i_n0aA" name="os" type="_Bd8fUQWpEeexSeX3i_n0aA"/>
+          <ownedParameter xmi:id="_Bd9tcgWpEeexSeX3i_n0aA" name="s" type="_Bd9GYAWpEeexSeX3i_n0aA"/>
+          <ownedParameter xmi:id="_Bd-UgAWpEeexSeX3i_n0aA" name="" type="_Bd8fUQWpEeexSeX3i_n0aA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_Bd7RMQWpEeexSeX3i_n0aA" name="Shape" visibility="private" client="_Bd5cAAWpEeexSeX3i_n0aA" supplier="_Bd5cAAWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_BrZFcgWpEeexSeX3i_n0aA" name="iostream" visibility="public" client="_Bd5cAAWpEeexSeX3i_n0aA" supplier="_BrZFcQWpEeexSeX3i_n0aA">
+        <eAnnotations xmi:id="_BrZsgAWpEeexSeX3i_n0aA" source="http://www.eclipse.org/umlgen/annotation/c">
+          <details xmi:id="_BrZsgQWpEeexSeX3i_n0aA" key="STD_LIBRARY" value="true"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_B6t64AWpEeexSeX3i_n0aA" name="ShapeFactory" visibility="public">
+        <eAnnotations xmi:id="_B6uh8AWpEeexSeX3i_n0aA" source="http://www.eclipse.org/umlgen/annotation/c">
+          <details xmi:id="_B6uh8QWpEeexSeX3i_n0aA" key="C_FILENAME" value="src/ShapeFactory.cpp"/>
+          <details xmi:id="_CGzPEAWpEeexSeX3i_n0aA" key="H_FILENAME" value="src/ShapeFactory.h"/>
+          <details xmi:id="_CGz2IAWpEeexSeX3i_n0aA" key="IFNDEF" value="SHAPEFACTORY_H"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_CG1rUAWpEeexSeX3i_n0aA" name="SHAPEFACTORY_H" visibility="public" type="_A2pOwAWpEeexSeX3i_n0aA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_CG1rUQWpEeexSeX3i_n0aA" name="readOnlyValue" value=""/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_B6vwEQWpEeexSeX3i_n0aA" name="ShapeFactory" visibility="private" client="_B6t64AWpEeexSeX3i_n0aA" supplier="_B6t64AWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_B6wXIAWpEeexSeX3i_n0aA" name="Shape" visibility="private" client="_B6t64AWpEeexSeX3i_n0aA" supplier="_Bd5cAAWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_B6wXIgWpEeexSeX3i_n0aA" name="Triangle" visibility="private" client="_B6t64AWpEeexSeX3i_n0aA" supplier="_DDp44AWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_B6wXJAWpEeexSeX3i_n0aA" name="RightTriangle" visibility="private" client="_B6t64AWpEeexSeX3i_n0aA" supplier="_BCaZ4AWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_B6w-MQWpEeexSeX3i_n0aA" name="Rectangle" visibility="private" client="_B6t64AWpEeexSeX3i_n0aA" supplier="_Ann7UAWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_B6w-NAWpEeexSeX3i_n0aA" name="Square" visibility="private" client="_B6t64AWpEeexSeX3i_n0aA" supplier="_Cs_sYAWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_CG1EQAWpEeexSeX3i_n0aA" name="iostream" visibility="public" client="_B6t64AWpEeexSeX3i_n0aA" supplier="_BrZFcQWpEeexSeX3i_n0aA">
+        <eAnnotations xmi:id="_CG1EQQWpEeexSeX3i_n0aA" source="http://www.eclipse.org/umlgen/annotation/c">
+          <details xmi:id="_CG1EQgWpEeexSeX3i_n0aA" key="STD_LIBRARY" value="true"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_CR0MQAWpEeexSeX3i_n0aA" name="ShapeManager" visibility="public">
+        <eAnnotations xmi:id="_CR0zUAWpEeexSeX3i_n0aA" source="http://www.eclipse.org/umlgen/annotation/c">
+          <details xmi:id="_CR0zUQWpEeexSeX3i_n0aA" key="C_FILENAME" value="src/ShapeManager.cpp"/>
+          <details xmi:id="_CdvvcAWpEeexSeX3i_n0aA" key="H_FILENAME" value="src/ShapeManager.h"/>
+          <details xmi:id="_CdxkoAWpEeexSeX3i_n0aA" key="IFNDEF" value="SHAPEMANAGER_H"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_CdzZ0AWpEeexSeX3i_n0aA" name="SHAPEMANAGER_H" visibility="public" type="_A2pOwAWpEeexSeX3i_n0aA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_CdzZ0QWpEeexSeX3i_n0aA" name="readOnlyValue" value=""/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_CR3PkQWpEeexSeX3i_n0aA" name="ShapeManager" visibility="private" client="_CR0MQAWpEeexSeX3i_n0aA" supplier="_CR0MQAWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_CdyLsAWpEeexSeX3i_n0aA" name="iostream" visibility="public" client="_CR0MQAWpEeexSeX3i_n0aA" supplier="_BrZFcQWpEeexSeX3i_n0aA">
+        <eAnnotations xmi:id="_CdyLsQWpEeexSeX3i_n0aA" source="http://www.eclipse.org/umlgen/annotation/c">
+          <details xmi:id="_CdyLsgWpEeexSeX3i_n0aA" key="STD_LIBRARY" value="true"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_CdyywAWpEeexSeX3i_n0aA" name="Shape" visibility="public" client="_CR0MQAWpEeexSeX3i_n0aA" supplier="_Bd5cAAWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Cs_sYAWpEeexSeX3i_n0aA" name="Square" visibility="public">
+        <eAnnotations xmi:id="_CtATcAWpEeexSeX3i_n0aA" source="http://www.eclipse.org/umlgen/annotation/c">
+          <details xmi:id="_CtATcQWpEeexSeX3i_n0aA" key="C_FILENAME" value="src/Square.cpp"/>
+          <details xmi:id="_C4l4YAWpEeexSeX3i_n0aA" key="H_FILENAME" value="src/Square.h"/>
+          <details xmi:id="_C4mfcAWpEeexSeX3i_n0aA" key="IFNDEF" value="SQUARE_H"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_C4ntkAWpEeexSeX3i_n0aA" name="SQUARE_H" visibility="public" type="_A2pOwAWpEeexSeX3i_n0aA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_C4oUoAWpEeexSeX3i_n0aA" name="readOnlyValue" value=""/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_CtCIoQWpEeexSeX3i_n0aA" name="Square" visibility="private" client="_Cs_sYAWpEeexSeX3i_n0aA" supplier="_Cs_sYAWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_C4nGgAWpEeexSeX3i_n0aA" name="Rectangle" visibility="public" client="_Cs_sYAWpEeexSeX3i_n0aA" supplier="_Ann7UAWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DDp44AWpEeexSeX3i_n0aA" name="Triangle" visibility="public">
+        <eAnnotations xmi:id="_DDqf8AWpEeexSeX3i_n0aA" source="http://www.eclipse.org/umlgen/annotation/c">
+          <details xmi:id="_DDqf8QWpEeexSeX3i_n0aA" key="C_FILENAME" value="src/Triangle.cpp"/>
+          <details xmi:id="_DQ_xUAWpEeexSeX3i_n0aA" key="H_FILENAME" value="src/Triangle.h"/>
+          <details xmi:id="_DRA_cAWpEeexSeX3i_n0aA" key="IFNDEF" value="TRIANGLE_H"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_DRBmgAWpEeexSeX3i_n0aA" name="TRIANGLE_H" visibility="public" type="_A2pOwAWpEeexSeX3i_n0aA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_DRBmgQWpEeexSeX3i_n0aA" name="readOnlyValue" value=""/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_DDruEQWpEeexSeX3i_n0aA" name="Triangle" visibility="private" client="_DDp44AWpEeexSeX3i_n0aA" supplier="_DDp44AWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_DRA_cQWpEeexSeX3i_n0aA" name="Shape" visibility="public" client="_DDp44AWpEeexSeX3i_n0aA" supplier="_Bd5cAAWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DgeXwAWpEeexSeX3i_n0aA" name="main" visibility="private">
+        <eAnnotations xmi:id="_DgeXwQWpEeexSeX3i_n0aA" source="http://www.eclipse.org/umlgen/annotation/c">
+          <details xmi:id="_Dge-0AWpEeexSeX3i_n0aA" key="C_FILENAME" value="src/main.cpp"/>
+        </eAnnotations>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Dgg0AQWpEeexSeX3i_n0aA" name="printMenu" visibility="private" specification="_DgipMAWpEeexSeX3i_n0aA">
+          <eAnnotations xmi:id="_Dnu2UAWpEeexSeX3i_n0aA" source="http://www.eclipse.org/umlgen/c/documentation">
+            <details xmi:id="_Dnu2UQWpEeexSeX3i_n0aA" key="documentation" value="run this program using the console pauser or add your own getch, system(&quot;pause&quot;) or input loop"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_DghbEAWpEeexSeX3i_n0aA" name="" type="_umMdEDBmEeC3ksERX4P2Ow" direction="return"/>
+          <language>C</language>
+          <body>{&#xD;
+	cout&lt;&lt;&quot;\t***Moi ban nhap hinh mong muon:***&quot;&lt;&lt;endl;&#xD;
+	cout&lt;&lt;&quot;1. Triangle&quot;&lt;&lt;endl;&#xD;
+	cout&lt;&lt;&quot;2. Right Triangle&quot;&lt;&lt;endl;&#xD;
+	cout&lt;&lt;&quot;3. Rectangle&quot;&lt;&lt;endl;&#xD;
+	cout&lt;&lt;&quot;4. Square&quot;&lt;&lt;endl;&#xD;
+	cout&lt;&lt;&quot;Moi nhap: &quot;;&#xD;
+}</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_DgipMgWpEeexSeX3i_n0aA" name="main" visibility="private" specification="_Dgj3UAWpEeexSeX3i_n0aA">
+          <ownedParameter xmi:id="_DgipMwWpEeexSeX3i_n0aA" name="" type="_4IaaMDBmEeC3ksERX4P2Ow" direction="return"/>
+          <language>C</language>
+          <body>{&#xD;
+	ShapeManager sm;&#xD;
+	ShapeFactory factory;&#xD;
+	&#xD;
+	int type;&#xD;
+	printMenu();&#xD;
+	cin>>type;&#xD;
+	while(type != 0) {&#xD;
+		sm.add(factory.createShape(type));&#xD;
+		cin>>type;&#xD;
+	}&#xD;
+	&#xD;
+	&#xD;
+	return 0;&#xD;
+}</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_DgipMAWpEeexSeX3i_n0aA" name="printMenu" visibility="private" method="_Dgg0AQWpEeexSeX3i_n0aA">
+          <ownedParameter xmi:id="_DgipMQWpEeexSeX3i_n0aA" name="" type="_umMdEDBmEeC3ksERX4P2Ow" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Dgj3UAWpEeexSeX3i_n0aA" name="main" visibility="private" method="_DgipMgWpEeexSeX3i_n0aA">
+          <ownedParameter xmi:id="_Dgj3UQWpEeexSeX3i_n0aA" name="" type="_4IaaMDBmEeC3ksERX4P2Ow" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_DggM8AWpEeexSeX3i_n0aA" name="iostream" visibility="private" client="_DgeXwAWpEeexSeX3i_n0aA" supplier="_BrZFcQWpEeexSeX3i_n0aA">
+        <eAnnotations xmi:id="_DggM8QWpEeexSeX3i_n0aA" source="http://www.eclipse.org/umlgen/annotation/c">
+          <details xmi:id="_DggM8gWpEeexSeX3i_n0aA" key="STD_LIBRARY" value="true"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_DggM8wWpEeexSeX3i_n0aA" name="ShapeManager" visibility="private" client="_DgeXwAWpEeexSeX3i_n0aA" supplier="_CR0MQAWpEeexSeX3i_n0aA"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_DggM9QWpEeexSeX3i_n0aA" name="ShapeFactory" visibility="private" client="_DgeXwAWpEeexSeX3i_n0aA" supplier="_B6t64AWpEeexSeX3i_n0aA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Utn6QWmtEd-Hi4dLzjZ7BQ" name="Types">
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_umMdEDBmEeC3ksERX4P2Ow" name="void"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1V1k4DBmEeC3ksERX4P2Ow" name="char"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_4IaaMDBmEeC3ksERX4P2Ow" name="int"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_-Gwn8DBmEeC3ksERX4P2Ow" name="short"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8yzckThEEeCCiOmwUXA8rg" name="long"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_-l81MDhEEeCCiOmwUXA8rg" name="double"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_AKRHoDhFEeCCiOmwUXA8rg" name="float"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_A2pOwAWpEeexSeX3i_n0aA" name="Macro" visibility="public"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_Bd8fUQWpEeexSeX3i_n0aA" name="ostream&amp;" visibility="public"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_Bd9GYAWpEeexSeX3i_n0aA" name="Shape&amp;" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WDwmwGmtEd-Hi4dLzjZ7BQ" name="Libs">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_BrZFcQWpEeexSeX3i_n0aA" name="iostream"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_9yv5kIBoEduoHLDxP0HEYA" name="Component View">
+    <packagedElement xmi:type="uml:Component" xmi:id="_P8KOQNCzEdukztvu02l7OQ" name="AComponent Diagram by process"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_-mdtwNCyEdukztvu02l7OQ" name="Deployment View"/>
+</uml:Model>

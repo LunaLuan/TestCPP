@@ -1,0 +1,24 @@
+#include "Rectangle.h"
+
+Rectangle::Rectangle(int a, int b) {
+	setName("Rectangle");
+
+	m_a = a;
+	m_b = b;
+}
+
+int Rectangle::getArea() {
+	return m_a * m_b;
+}
+
+int Rectangle::getPerimeter() {
+	return m_a * 2 + m_b * 2;
+}
+
+int Rectangle::getNumEdges() {
+	return numEdges;
+}
+
+Rectangle::~Rectangle() {
+
+}

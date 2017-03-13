@@ -1,0 +1,24 @@
+#include "RightTriangle.h"
+
+RightTriangle::RightTriangle(int a, int b, int c) {
+
+}
+
+RightTriangle::RightTriangle(int a, int b) {
+	m_a = a;
+	m_b = b;
+}
+
+int RightTriangle::getArea() {
+	return 0;
+}
+
+int RightTriangle::getPerimeter() {
+	return 0;
+}
+
+
+
+
+
+

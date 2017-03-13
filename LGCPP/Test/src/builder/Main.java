@@ -1,0 +1,17 @@
+package builder;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		CookieRobot.CookieRobotBuilder builder = 
+				new CookieRobot.CookieRobotBuilder();
+		
+		builder.addParts();
+		builder.addParts();
+		
+		CookieRobot cookieRobot = (CookieRobot) builder.createRobot();
+		
+		
+	}
+
+}

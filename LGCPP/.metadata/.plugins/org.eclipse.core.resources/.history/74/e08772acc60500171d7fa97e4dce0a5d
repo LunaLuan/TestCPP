@@ -1,0 +1,35 @@
+#include "Triangle.h"
+
+Triangle::Triangle(int a, int b, int c) {
+	m_a = a;
+	m_b = b;
+	m_c = c;
+}
+
+int Triangle::getArea() {
+	/* TODO write this function to get
+	* area of triangle
+	*/
+	return 0;
+}
+
+int Triangle::getPerimeter() {
+	/* TODO write this function to get
+	 * perimeter of triangle
+	 */
+	return 0;
+}
+
+
+
+bool Triangle::isTriangle(int a, int b, int c) {
+	bool t1 = (a + b >= c);
+	bool t2 = (a + c >= b);
+	bool t3 = (b + c >= a);
+
+	return t1 || t2 || t3;
+}
+
+Triangle::~Triangle() {
+
+}

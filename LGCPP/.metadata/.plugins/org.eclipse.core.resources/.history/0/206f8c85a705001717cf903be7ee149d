@@ -1,0 +1,15 @@
+#include "Shape.h"
+
+Shape::Shape() {
+	
+}
+
+ostream& operator<<(ostream& os, Shape &s) {
+	cout<<s.getArea()<<"; "<<s.getPerimeter();
+	return os;
+}
+
+
+
+
+

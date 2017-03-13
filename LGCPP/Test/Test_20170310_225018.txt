@@ -1,0 +1,7 @@
+ERROR - 22:50:18: java.net.MalformedURLException: unknown protocol: pathmap
+ERROR - 22:50:56: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///Test/.classpath, 2, 12)
+ERROR - 22:50:56: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///Test/.classpath, 2, 12)
+ERROR - 22:51:17: java.net.MalformedURLException: unknown protocol: pathmap
+ERROR - 22:52:01: java.net.MalformedURLException: unknown protocol: pathmap
+ERROR - 22:52:16: java.net.MalformedURLException: unknown protocol: pathmap
+ERROR - 22:52:19: java.net.MalformedURLException: unknown protocol: pathmap

@@ -1,0 +1,13 @@
+#include "Rectangle.h"
+
+#ifndef SQUARE_H
+#define SQUARE_H
+
+class Square:public Rectangle
+{
+	public:
+		static bool isSquare(int a, int b); 
+	protected:
+};
+
+#endif

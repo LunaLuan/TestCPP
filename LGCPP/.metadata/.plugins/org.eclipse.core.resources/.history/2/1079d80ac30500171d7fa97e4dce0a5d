@@ -1,0 +1,23 @@
+#include "Rectangle.h"
+
+Rectangle::Rectangle(int a, int b) {
+	edges = new int[2];
+	edges[0] = a;
+	edges[1] = b;
+}
+
+int Rectangle::getArea() {
+	return edges[0] * edges[1];
+}
+
+int Rectangle::getPerimeter() {
+	return edges[0] * 2 + edges[1] * 2;
+}
+
+int Rectangle::getNumEdges() {
+	return numEdges;
+}
+
+Rectangle::~~Rectangle() {
+	delete[] *edges;
+}

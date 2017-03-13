@@ -1,0 +1,16 @@
+#include "ShapeManager.h"
+
+ShapeManager::ShapeManager() {
+	numShapes = 0;
+}
+
+void ShapeManager::add(Shape *s) {
+	shapes[numShapes] = s;
+	numShapes++;
+}
+
+ostream& ShapeManager::operator<<(ostream &os, ShapeManager &sm) {
+	for(int i = 0 ; i < numShapes ; i++) {
+		os<<shapes[i]<<endl;
+	}
+}

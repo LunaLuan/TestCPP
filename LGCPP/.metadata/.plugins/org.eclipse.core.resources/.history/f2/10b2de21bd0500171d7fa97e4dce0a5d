@@ -1,0 +1,9 @@
+package builder;
+
+public class CookieRobot extends Robot {
+	
+	public static class CookieRobotBuilder implements RobotBuilder {
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package synctest;
+
+class Sender {
+	public void send(String msg) {
+		System.out.println("Sending\t" + msg);
+		Thread.sleep(1000);
+		System.out.println("\n" + msg + " Sent");
+	}
+	
+}
+
+class ThreadSend extends Thread {
+	private String msg;
+	pri
+	
+}
+
+
+public class Main {
+
+}

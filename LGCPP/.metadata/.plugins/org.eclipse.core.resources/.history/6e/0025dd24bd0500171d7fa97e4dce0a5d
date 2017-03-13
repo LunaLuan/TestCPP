@@ -1,0 +1,31 @@
+package builder;
+
+public class CookieRobot extends Robot {
+	
+	
+	
+	
+	public static class CookieRobotBuilder implements RobotBuilder {
+
+		@Override
+		public void addStart() {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void addParts() {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public Robot createRobot() {
+			// TODO Auto-generated method stub
+			return new Robot() {
+			};
+		}
+		
+	}
+
+}

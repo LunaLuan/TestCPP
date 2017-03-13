@@ -1,0 +1,17 @@
+#ifndef SQUARE_H
+#define SQUARE_H
+
+#include "Rectangle.h"
+
+class Square:public Rectangle
+{
+	public:
+		Square(int a);
+		virtual int getArea();
+	protected:
+
+	private:
+		int m_a;
+};
+
+#endif

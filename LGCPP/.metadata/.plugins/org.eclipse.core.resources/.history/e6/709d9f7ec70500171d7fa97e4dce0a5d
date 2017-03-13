@@ -1,0 +1,8 @@
+#include "RightTriangle.h"
+
+RightTriangle::RightTriangle(int a, int b) {
+	m_a = a;
+	m_b = b;
+}
+
+

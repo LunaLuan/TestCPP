@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+#include "Shape.h"
+
+#ifndef SHAPEMANAGER_H
+#define SHAPEMANAGER_H
+
+class ShapeManager
+{
+	public:
+		ShapeManager();
+		void add(Shape *s);
+		ostream& operator<<(ostream &os, const ShapeManager &sm);
+		~ShapeManager();
+	protected:
+		Shape *shapes[1000];
+		int numShapes;
+		
+};
+
+#endif

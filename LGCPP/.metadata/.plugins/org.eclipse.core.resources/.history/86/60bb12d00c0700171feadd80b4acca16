@@ -1,0 +1,33 @@
+package synctest;
+
+class Sender {
+	public void send(String msg) {
+		System.out.println("Sending\t" + msg);
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("\n" + msg + " Sent");
+	}
+	
+}
+
+class ThreadSend extends Thread {
+	private String msg;
+	private Thread t;
+	
+	Sender sender;
+	
+	public ThreadSend(String m, Sender obj) {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+}
+
+
+public class Main {
+
+}

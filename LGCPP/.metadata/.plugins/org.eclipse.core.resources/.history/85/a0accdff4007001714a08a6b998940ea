@@ -1,0 +1,36 @@
+#include "Triangle.h"
+
+Triangle::Triangle(int a, int b, int c) {
+	if(!isTriangle(a, b, c)) {
+
+	}
+	setName("Triangle");
+	m_a = a;
+	m_b = b;
+	m_c = c;
+}
+
+int Triangle::getArea() {
+	int p = getPerimeter();
+	return (int) sqrt();
+}
+
+int Triangle::getPerimeter() {
+	return 0;
+}
+
+
+
+
+
+bool Triangle::isTriangle(int a, int b, int c) {
+	bool t1 = (a + b >= c);
+	bool t2 = (a + c >= b);
+	bool t3 = (b + c >= a);
+
+	return (t1 || t2 || t3);
+}
+
+Triangle::~Triangle() {
+
+}

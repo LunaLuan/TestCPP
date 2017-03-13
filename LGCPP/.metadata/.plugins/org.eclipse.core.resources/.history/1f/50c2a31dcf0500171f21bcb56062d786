@@ -1,0 +1,18 @@
+#include "Square.h"
+
+Square::Square(int a, int b) {
+
+}
+
+Square::Square(int a) {
+
+}
+
+int Square::getArea() {
+	return a * a;
+}
+
+int Square::getPerimeter() {
+	return a * 4;
+}
+

@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+#ifndef SHAPE_H
+#define SHAPE_H
+
+class Shape
+{
+	public:
+		Shape();
+		virtual int getArea() = 0;
+		virtual int getPerimeter() = 0;
+		friend ostream& operator<<(ostream& os, Shape &s);
+	protected:
+		string name;
+		
+
+
+};
+
+#endif

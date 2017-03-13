@@ -1,0 +1,28 @@
+#include "Triangle.h"
+
+Triangle::Triangle(int a, int b, int c) {
+	edges = new int[numEdges];
+	edges[0] = a;
+	edges[1] = b;
+	edges[2] = c;
+}
+
+int Triangle::getArea() {
+	return 0;
+}
+
+int Triangle::getPerimeter() {
+	return 0;
+}
+
+int Triangle::getNumEdges() {
+	return numEdges;
+}
+
+bool Triangle::isTriangle(int a, int b, int c) {
+	
+}
+
+Triangle::~Triangle() {
+	delete[] edges;
+}
